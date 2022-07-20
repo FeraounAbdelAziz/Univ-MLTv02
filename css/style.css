@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    overflow: hidden;
+    /* background-color: #777; */
+}
+.overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(10, 9, 8, .7); */
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+form{
+    background-color: rgba(10, 9, 8, 0.632);
+    border-radius: 50px;
+    width: 55%;
+    height: 400px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.sign-up form {
+    height: 550px;
+    width: 40%;
+    min-width: 350px;
+    margin: 50px auto;
+
+}
+
+.login form {
+    height: 300px;
+    width: 40%;
+    min-width: 350px;
+    margin: 120px auto;
+
+
+}
+
+
+.sign-up span {
+    color:rgb(74, 4, 4);
+}
+
+
+
+form h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: aliceblue;
+}
+form input {
+    
+    outline: none;
+    padding: 5px 10px;
+    background: none;
+    color: aliceblue;
+    border: none;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 10px 0;
+    margin-bottom: 0%;  /* تحت انبوت */
+    font-size: 15px;
+
+}
+
+
+form button {
+    border-radius: 5px;
+    outline: none;
+    border: #777 1px solid;
+    padding: 5px 10px;
+    background: none;
+    background-color: rgba(28, 27, 27, 0.21);
+    cursor: pointer;
+}
+.flex span{
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex > * {
+    margin-bottom: 10px;
+}
+.flex a {
+    text-decoration: none;
+    /* color: rgb(178, 125, 56); */
+    color: rgb(169, 169, 169);
+}
+
+.flex a:hover {
+    text-decoration: none;
+    color: rgb(178, 125, 56);
+    
+}
+
+
