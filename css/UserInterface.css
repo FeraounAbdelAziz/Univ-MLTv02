@@ -201,6 +201,8 @@ header .navbar #search {
         position: absolute;
         top: 0;
         margin-top: 89.75px;
+        min-width: 516px;
+        min-height: 278px;
     }
     .hero-section .container .flex .card img {
         display: none;
