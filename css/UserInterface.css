@@ -176,6 +176,8 @@ header .navbar #search {
     display: flex;
     justify-content: center;
     padding-top: 60px;
+    min-width : 556px;
+    mii-height: 60px;
 }
 .hero-section .container .flex {
     display: flex;
